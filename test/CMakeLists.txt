@@ -4,6 +4,13 @@ set(SOURCES
 
 add_executable(unit_tests ${SOURCES})
 
+target_link_libraries(unit_tests
+    math
+    scene
+    camera
+    entity
+)
+
 add_test(
     NAME
         all_tests

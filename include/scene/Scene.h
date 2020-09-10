@@ -18,7 +18,7 @@ class Scene {
 
     private:
         std::vector<Camera> cameras;
-        Camera* m_activeCamera = NULL;
+        Camera* m_activeCamera = nullptr;
 
 };
 

@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.10)
 project(CudaRenderProj VERSION 0.1.0)
 
-cmake_policy(SET CMP0072 NEW)
+#cmake_policy(SET CMP0072 NEW)
 
 set(CMAKE_CXX_STANDARD 11)
 set(TARGET CudaRender)
