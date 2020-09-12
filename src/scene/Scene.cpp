@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+namespace cuda_render {
+
 void Scene::update(double dt) {
     
 }
@@ -29,3 +31,5 @@ void Scene::render() {
         this->m_activeCamera->render();
     }
 }
+
+} //namespace cuda_render

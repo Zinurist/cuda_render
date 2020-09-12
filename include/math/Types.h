@@ -4,8 +4,11 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/quaternion.hpp>
 
+namespace cuda_render {
+
 typedef float FLOAT;
 typedef glm::vec3 VEC3;
+typedef glm::vec4 VEC4;
 typedef glm::quat QUAT;
 typedef glm::mat3 MAT3;
 typedef glm::mat4 MAT4;
@@ -26,6 +29,8 @@ namespace Directions {
     const VEC3 LEFT = WEST;
     const VEC3 UP = SKY;
     const VEC3 DOWN = GROUND;
-};
+}
+
+} //namespace cuda_render
 
 #endif //TYPES_H

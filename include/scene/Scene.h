@@ -5,6 +5,8 @@
 
 #include "camera/Camera.h"
 
+namespace cuda_render {
+
 class Scene {
     public:
         void update(double dt);
@@ -21,5 +23,7 @@ class Scene {
         Camera* m_activeCamera = nullptr;
 
 };
+
+} //namespace cuda_render
 
 #endif //SCENE_H

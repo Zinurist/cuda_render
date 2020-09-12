@@ -2,6 +2,8 @@ set(SOURCES
     test.cpp
 )
 
+include_directories(${PROJECT_SOURCE_DIR}/test)
+
 add_executable(unit_tests ${SOURCES})
 
 target_link_libraries(unit_tests

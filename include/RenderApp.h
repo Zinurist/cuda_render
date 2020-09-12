@@ -8,6 +8,8 @@
 #include "scene/Scene.h"
 #include "entity/Entity.h"
 
+namespace cuda_render {
+
 class RenderApp {
     public:
         explicit RenderApp(GLFWwindow* window);
@@ -29,5 +31,7 @@ class RenderApp {
         void toggleVSync();
 
 };
+
+} //namespace cuda_render
 
 #endif //RENDER_APP_H

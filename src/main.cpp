@@ -7,7 +7,7 @@
 
 using namespace std;
 
-RenderApp* app = NULL;
+cuda_render::RenderApp* app = NULL;
 
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods) {
     if (app) {
@@ -40,7 +40,7 @@ int main(int, char**) {
 
     glfwSetKeyCallback(window, key_callback);
 
-    app = new RenderApp(window);
+    app = new cuda_render::RenderApp(window);
     app->run();
     delete app;
 

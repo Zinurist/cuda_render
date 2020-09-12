@@ -2,6 +2,8 @@
 
 #include <iostream>
 
+namespace cuda_render {
+
 RenderApp::RenderApp(GLFWwindow* window) {
     this->m_window = window;
     this->buildScenes();
@@ -69,4 +71,4 @@ void RenderApp::toggleVSync() {
     glfwSwapInterval(this->m_vSyncEnabled ? 1 : 0);
 }
 
-
+} //namespace cuda_render

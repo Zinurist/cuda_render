@@ -1,3 +1,16 @@
 {
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "list": "cpp",
+        "fstream": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "valarray": "cpp",
+        "unordered_map": "cpp",
+        "geometry": "cpp"
+    }
 }
